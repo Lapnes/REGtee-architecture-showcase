@@ -1,0 +1,38 @@
+# Set default behavior to automatically detect text files and force LF line endings
+* text=auto eol=lf
+
+# Documentation & Markup
+*.md text eol=lf
+*.markdown text eol=lf
+*.txt text eol=lf
+
+# Data & Config
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+
+# Programming & Scripts
+*.go text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.tf text eol=lf
+*.hcl text eol=lf
+
+# Binary files (do not convert)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text eol=lf
+*.pdf binary
+*.tar.zst binary
+*.tar.gz binary
+*.zip binary
